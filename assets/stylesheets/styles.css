@@ -439,6 +439,7 @@
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
+    margin-top: 30px;
   }
   
   .header.sticked {
@@ -1799,6 +1800,45 @@
       margin-bottom: -20px;
     }
   }
+
+  /* filepath: c:\Users\Rohini Singh\Downloads\techno\assets\stylesheets\styles.css */
+.top-navbar {
+  background-color: white;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-navbar .left-content span {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.top-navbar .right-content {
+  display: flex;
+  align-items: center;
+}
+
+.top-navbar .right-content span {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.top-navbar .right-content a {
+  margin-left: 10px;
+}
+
+.top-navbar .right-content img {
+  width: 20px;
+  height: 20px;
+}
 
   /* scroll navbar */
   .icon-box {

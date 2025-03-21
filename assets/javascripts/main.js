@@ -439,6 +439,8 @@ function getBotResponse(userMessage) {
   // Dictionary of responses
   let responses = {
       "hello": "Hi there! How can I assist you?",
+      "hi": "Hi there! How can I assist you?",
+      "hey": "Hi there! How can I assist you?",
       "how are you": "I'm just a bot, but I'm doing great! How about you?",
       "your name": "I'm an AI Assistant!",
       "bye": "Goodbye! Have a great day!",

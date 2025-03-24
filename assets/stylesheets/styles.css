@@ -1618,8 +1618,57 @@
       max-width: 1140px;
     }
   }
-  
-  
+
+  .gallery-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    /* max-width: 900px; */
+    margin: auto;
+    overflow: hidden;
+    background: #0a2940;
+    padding: 20px;
+    border-radius: 15px;
+    height: 350px;
+  }
+  .photo-slider, .video-slider {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .photo-slider img, .video-slider video {
+    width: 100%;
+    /* max-width: 850px; */
+    border-radius: 10px;
+    display: none;
+  }
+  .photo-slider img.active, .video-slider video.active {
+    display: block;
+  }
+  .prev, .next {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 50%;
+  }
+  .prev {
+    left: 15px;
+  }
+  .next {
+    right: 15px;
+  }
   
   /*--------------------------------------------------------------
   # Hero Section

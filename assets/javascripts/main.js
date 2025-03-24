@@ -470,3 +470,18 @@ function getBotResponse(userMessage) {
   console.log("Bot response:", botResponse); // Debugging
   setTimeout(() => addMessage("Assistant", botResponse, true), 500); // Set isHtml = true for clickable links
 }
+
+function prevSlide(type) {
+  let slides = document.querySelectorAll(`.${type}-slider img, .${type}-slider video`);
+  let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+  slides[activeIndex].classList.remove('active');
+  let newIndex = (activeIndex - 1 + slides.length) % slides.length;
+  slides[newIndex].classList.add('active');
+}
+function nextSlide(type) {
+  let slides = document.querySelectorAll(`.${type}-slider img, .${type}-slider video`);
+  let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+  slides[activeIndex].classList.remove('active');
+  let newIndex = (activeIndex + 1) % slides.length;
+  slides[newIndex].classList.add('active');
+}

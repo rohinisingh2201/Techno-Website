@@ -485,3 +485,14 @@ function nextSlide(type) {
   let newIndex = (activeIndex + 1) % slides.length;
   slides[newIndex].classList.add('active');
 }
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   let wrapper = document.querySelector(".news-wrapper");
+//   let items = document.querySelectorAll(".news-item");
+
+//   // Duplicate items to make seamless scrolling
+//   items.forEach(item => {
+//       let clone = item.cloneNode(true);
+//       wrapper.appendChild(clone);
+//   });
+// });

@@ -1404,6 +1404,13 @@
       left: auto;
     }
   }
+
+  .testimonials .testimonial-item .social-media-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
   
   
   /*--------------------------------------------------------------
@@ -1888,6 +1895,14 @@
   width: 20px;
   height: 20px;
 }
+
+.col-xl-6, .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
   /* scroll navbar */
   .icon-box {

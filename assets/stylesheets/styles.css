@@ -1683,10 +1683,10 @@
   .hero {
     width: 100%;
     position: relative;
-    background: url(../images/hero-bg.png) center center;
+    background: url(../images/hero.png) center center;
     background-size: cover;
     padding: 60px 0 0 0;
-    height: 100vh;
+    height: 90vh;
     min-height: 700px;
     display: flex;
     align-items: center;
